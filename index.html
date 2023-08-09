@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
@@ -57,105 +60,97 @@
                 </header>
                 <!-- Portfolio Section-->
                 <section class="page-section portfolio" id="portfolio">
-                    <div class="container">
-                        <!-- Portfolio Section Heading-->
-                        <h2 class="page-section-heading text-center text-uppercase text-secondary">Portfolio</h2>
-                        <!-- Icon Divider-->
-                        <div class="divider-custom">
-                            <div class="divider-custom-long-line"></div>
+                    <!-- Portfolio Section Heading-->
+                    <h2 class="page-section-heading text-center text-uppercase text-secondary">Portfolio</h2>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom">
+                        <div class="divider-custom-long-line"></div>
+                    </div>
+                    <div>
+                        <p class="lead text-center">Here are some projects that I've worked on.</p>
+                    </div>
+                    <br>
+                    <!-- Portfolio Grid Items-->
+                    <div class="row justify-content-around mb-3">
+                        <!-- Portfolio Item 1-->
+                        <div class="card">
+                            <img class="img-fluid" src="assets/img/portfolio/gone-phishing.png" alt="Gone Phishing" />
+                            <div class="card-body">
+                                <h5>Gone Phishing</h5>
+                                <p class="card-text">Gone Phishing is a web browser based game that aims to educate
+                                    and enhance users' confidence in thwarting phishing attacks.
+                                </p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal1"> View Details
+                                </a>
+                            </div>
                         </div>
-                        <div>
-                            <p class="lead text-center">Here are some projects that I've worked on.</p>
+
+                        <!-- Portfolio Item 2-->
+                        <div class="card">
+                            <img class="img-fluid" src="assets/img/portfolio/HobbyTrend.png" alt="Hobby Trend" />
+                            <div class="card-body">
+                                <h5>Hobby Trend</h5>
+                                <p class="card-text">Hobby Trend is a New Zealand based importer and retailer of RC
+                                    products.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal2">View Details
+                                </a>
+                            </div>
                         </div>
-                        <br>
-                        <!-- Portfolio Grid Items-->
-                        <div class="row justify-content-center">
-                            <!-- Portfolio Item 1-->
-                            <div class="col-md-6 col-lg-4 mb-5">
-                                <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal1">
-                                    <div
-                                        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                        <div class="portfolio-item-caption-content text-center text-white">
-                                            <p class="lead">Work in Progress: Gone Phishing</p>
-                                            <i class="fas fa-plus fa-2x"></i>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/gone-phishing.png"
-                                        alt="Gone Phishing" />
-                                </div>
+
+                        <!-- Portfolio Item 3-->
+                        <div class="card">
+                            <img class="img-fluid" src="assets/img/portfolio/iced-tea.png" alt="MoreTea" />
+                            <div class="card-body">
+                                <h5>MoreTea</h5>
+                                <p class="card-text">MoreTea is a mod for Minecraft Java Edition that adds a variety
+                                    of teas.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal3">View Details
+                                </a>
                             </div>
-                            <!-- Portfolio Item 2-->
-                            <div class="col-md-6 col-lg-4 mb-5">
-                                <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal2">
-                                    <div
-                                        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                        <div class="portfolio-item-caption-content text-center text-white">
-                                            <p class="lead">Hobby Trend</p>
-                                            <i class="fas fa-plus fa-2x"></i>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/HobbyTrend.png"
-                                        alt="Hobby Trend" />
-                                </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around mb-3">
+                        <!-- Portfolio Item 4-->
+                        <div class="card">
+                            <img class="img-fluid" src="assets/img/portfolio/search-engine-enhancer.png"
+                                alt="Search Engine Enhancer" />
+                            <div class="card-body">
+                                <h5>"Search Engine Enhancer"</h5>
+                                <p class="card-text">"Search Engine Enhancer" is a Chrome extension that improves
+                                    your search engine... but not in the way you think.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal4">View Details
+                                </a>
                             </div>
-                            <!-- Portfolio Item 3-->
-                            <div class="col-md-6 col-lg-4 mb-5">
-                                <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal3">
-                                    <div
-                                        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                        <div class="portfolio-item-caption-content text-center text-white">
-                                            <p class="lead">MoreTea</p>
-                                            <i class="fas fa-plus fa-2x"></i>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/iced-tea.png" alt="MoreTea" />
-                                </div>
+                        </div>
+
+                        <!-- Portfolio Item 5-->
+                        <div class="card">
+                            <img class="img-fluid" src="assets/img/portfolio/speedy-car.png" />
+                            <div class="card-body">
+                                <h5>Speedy Car</h5>
+                                <p class="card-text">Speedy Car is a web browser based game that has you paving a
+                                    road for a car that doesn't stop accelerating.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal5">View Details
+                                </a>
                             </div>
-                            <!-- Portfolio Item 4-->
-                            <div class="col-md-6 col-lg-4 mb-5">
-                                <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal4">
-                                    <div
-                                        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                        <div class="portfolio-item-caption-content text-center text-white">
-                                            <p class="lead">"Search Engine Enhancer"</p>
-                                            <i class="fas fa-plus fa-2x"></i>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/search-engine-enhancer.png"
-                                        alt="Search Engine Enhancer" />
-                                </div>
-                            </div>
-                            <!-- Portfolio Item 5-->
-                            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                                <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal5">
-                                    <div
-                                        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                        <div class="portfolio-item-caption-content text-center text-white">
-                                            <p class="lead">Speedy Car</p>
-                                            <i class="fas fa-plus fa-2x"></i>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/speedy-car.png" />
-                                </div>
-                            </div>
-                            <!-- Portfolio Item 6-->
-                            <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                                <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal6">
-                                    <div
-                                        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                        <div class="portfolio-item-caption-content text-center text-white">
-                                            <p class="lead">QR Code Detector</p>
-                                            <i class="fas fa-plus fa-2x"></i>
-                                        </div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/qr-code.png" alt="QR Code" />
-                                </div>
+                        </div>
+
+                        <!-- Portfolio Item 6-->
+                        <div class="card">
+                            <img class="img-fluid" src="assets/img/portfolio/qr-code.png" alt="QR Code" />
+                            <div class="card-body">
+                                <h5>QR Code Detector</h5>
+                                <p class="card-text">QR Code Detector finds and outlines a non-rotated QR code in
+                                    images.</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal6">View Details
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -170,11 +165,16 @@
                             <div class="divider-custom-about-line"></div>
                         </div>
                         <!-- About Section Content-->
-                        <div class="row">
-                            <div class="col-lg-4 offset-lg-4">
-                                <p class="lead text-center">I am a Computer Science graduate from the University of
-                                    Auckland.</p>
-                            </div>
+                        <div class="container">
+                            <ul class="lead text-center">
+                                <li style="list-style-type: none;">Computer Science graduate from the University of
+                                    Auckland</li>
+                                <li style="list-style-type: none;">Development experience with Unity and
+                                    websites</li>
+                                <li style="list-style-type: none;">Has an understanding of Agile methodology</li>
+                                <li style="list-style-type: none;">Loves to create and tinker with code</li>
+                                <li style="list-style-type: none;">Currently based in Auckland, New Zealand</li>
+                            </ul>
                         </div>
                         <br>
                         <div class="row">
@@ -184,13 +184,17 @@
                             <div class="divider-custom divider-light mt-0">
                                 <div class="divider-custom-line"></div>
                             </div>
-                            <p class="lead text-center">Best Computer Science Capstone Project: 2022 People's Choice
+                            <p class="lead text-center">2022 - Best Computer Science Capstone Project: People's Choice
                                 Award</p>
+                            <p class="lead text-center">2020 - Certificate of Outstanding Achievement: COMPSCI 210 -
+                                Computer
+                                Organisation</p>
                         </div>
                         <br>
                         <div class="row">
                             <div class="col-lg-4 offset-lg-4 text-center">
-                                <a class="text-white" style="font-size: 20px;" href="assets/Karen-Shew-CV.pdf" download>Resume</a>
+                                <a class="text-white" style="font-size: 20px;" href="assets/Karen-Shew-CV.pdf"
+                                    download>Resume</a>
                             </div>
                         </div>
                     </div>
@@ -236,276 +240,322 @@
                 </section>
             </div>
         </div>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Social Icons-->
-                    <div>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/WizardDragon192"><i
-                                class="fab fa-fw fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:shew.karen@gmail.com"><i
-                                class="fa fa-envelope"></i></a>
-                    </div>
+    </div>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Social Icons-->
+                <div>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/WizardDragon192"><i
+                            class="fab fa-fw fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:shew.karen@gmail.com"><i
+                            class="fa fa-envelope"></i></a>
                 </div>
             </div>
-        </footer>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                            aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Work in
-                                        Progress:
-                                    </h2>
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Gone Phishing
-                                    </h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-fish"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/gone-phishing-2.png"
-                                        alt="Gone Phishing game screen" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Work in Progress: Gone Phishing is a web browser based game that
-                                        aims to
-                                        educate and enhance users' confidence in thwarting phishing attacks.</p>
-                                    <p class="mb-4">This project was developed by a team of 6 using C#, JavaScript,
-                                        HTML,
-                                        Firebase, Unity and WebGL.</p>
-                                    <p class="mb-4">Click <a
-                                            href="https://uoa-compsci399-s1-2022.github.io/wip-gone-phishing/"> here</a>
-                                        to
-                                        try the game!</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+        </div>
+    </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Work in
+                                    Progress:
+                                </h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Gone Phishing
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-fish"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/gone-phishing-2.png"
+                                    alt="Gone Phishing game screen" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-left">Work in Progress: Gone Phishing is a web browser based game
+                                    that
+                                    aims to
+                                    educate and enhance users' confidence in thwarting phishing attacks.</p>
+                                <p class="mb-4 text-left"><strong>Technologies used: C#, Unity, JavaScript, HTML,
+                                        Firebase, WebGL</strong></p>
+                                <ul class="text-left">
+                                    <li>Developed by a team of 6 for a client as a capstone project</li>
+                                    <li>Created development timeline and assigned tasks to team members</li>
+                                    <li>Developed various scenes</li>
+                                    <li>Developed C# scripts for UI functionality</li>
+                                    <li>Identified and resolved bugs for smoother user experience</li>
+                                </ul>
+                                <br>
+                                <p class="mb-4">Click <a
+                                        href="https://uoa-compsci399-s1-2022.github.io/wip-gone-phishing/"> here</a>
+                                    to
+                                    try the game!</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                            aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hobby Trend
-                                    </h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-helicopter"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Hobby Trend is a New Zealand based importer and retailer of RC
-                                        products with a store located in Sylvia Park Shopping Centre.
-                                    </p>
-                                    <p class="mb-4">Click <a href="https://hobbytrend.co.nz">here</a> to visit the site.
-                                    </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hobby Trend
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-helicopter"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-left">Hobby Trend is a New Zealand based importer and retailer of RC
+                                    products with a store located in Sylvia Park Shopping Centre.
+                                </p>
+                                <p class="mb-4 text-left"><strong>Technologies used: OpenCart</strong></p>
+                                <ul class="text-left">
+                                    <li>Implemented Afterpay</li>
+                                    <li>Adjusted shipping prices based on delivery location to mitigate loss</li>
+                                    <li>Tested order procedure to ensure smooth user experience and order confirmation
+                                        is sent</li>
+                                </ul>
+                                <br>
+                                <p class="mb-4">Click <a href="https://hobbytrend.co.nz">here</a> to visit the site.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                            aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MoreTea</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-mug-saucer"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/tea-items.png"
-                                        alt="Ingame items" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">MoreTea is a mod for Minecraft Java Edition that adds a variety of
-                                        teas.
-                                    </p>
-                                    <p class="mb-4">This project is being developed using Java.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MoreTea</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-mug-saucer"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/tea-items.png"
+                                    alt="Ingame items" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-left">MoreTea is a mod for Minecraft Java Edition that adds a
+                                    variety of
+                                    teas.
+                                </p>
+                                <p class="mb-4 text-left"><strong>Technologies used: Java, Piskel</strong></p>
+                                <ul class="text-left">
+                                    <li>Currently in development</li>
+                                    <li>Designed sprites and textures</li>
+                                    <li>Created new crafting recipes and items</li>
+                                </ul>
+                                <br>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                            aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">"Search Engine
-                                        Enhancer"</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-magnifying-glass"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">"Search Engine Enhancer" is a Chrome extension that was developed
-                                        for
-                                        Terrible Ideas Hackathon 2021.</p>
-                                    <p class="mb-4">This project was developed by a team of 4 using JavaScript, HTML and
-                                        CSS.</p>
-                                    <p class="mb-4">Check out the <a
-                                            href="https://github.com/danielle161/Search-Engine-Enhancer">Github repo</a>
-                                        to
-                                        download and try it out yourself.</p>
-                                    <p class="mb-4">Disclaimer: The extension doesn't actually enhance your search
-                                        engine.
-                                        You have been
-                                        warned.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">"Search Engine
+                                    Enhancer"</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-magnifying-glass"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-left">"Search Engine Enhancer" is a Chrome extension that was
+                                    developed
+                                    for
+                                    Terrible Ideas Hackathon 2021.
+                                </p>
+                                <p class="mb-4 text-left"><strong>Technologies used: JavaScript, HTML and CSS</strong>
+                                </p>
+                                <ul class="text-left">
+                                    <li>Developed by a team of 4</li>
+                                    <li>Created and specified metadata file</li>
+                                    <li>Developed a page background colour changer script [scrapped feature]</li>
+                                    <li>Created an icon of various sizes</li>
+                                    <li>Code reviewed team member's code and removed redundant code</li>
+                                </ul>
+                                <br>
+                                <p class="mb-4">Check out the <a
+                                        href="https://github.com/danielle161/Search-Engine-Enhancer">Github repo</a>
+                                    to
+                                    download and try it out yourself.</p>
+                                <p class="mb-4">Disclaimer: The extension doesn't actually enhance your search
+                                    engine.
+                                    You have been
+                                    warned.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                            aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Speedy Car</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-car"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5"
-                                        src="assets/img/portfolio/speedy-car-gameplay.png" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Speedy Car is a web browser based game that was developed during
-                                        Kiwijam
-                                        2021 for the theme "Chain Reaction".</p>
-                                    <p class="mb-4">This project was developed as a team of 4 using C# and Unity.</p>
-                                    <p class="mb-4">Click <a href="https://zacps.itch.io/speedy-car">here</a> to try the
-                                        game!</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Speedy Car</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-car"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/speedy-car-gameplay.png" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-left">Speedy Car is a web browser based game that was developed
+                                    during
+                                    Kiwijam
+                                    2021 for the theme "Chain Reaction".
+                                </p>
+                                <p class="mb-4 text-left"><strong>Technologies used: C#, Unity, WebGL</strong></p>
+                                <ul class="text-left">
+                                    <li>Developed by a team of 4</li>
+                                    <li>Created road placement buttons</li>
+                                </ul>
+                                <br>
+                                <p class="mb-4">Click <a href="https://zacps.itch.io/speedy-car">here</a> to try the
+                                    game!</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-                            aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">QR Code
-                                        Detector
-                                    </h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-qrcode"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/qr-code-detected.png"
-                                        alt="Detected QR Code" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">The QR Code detector takes an image that contains a non-rotated QR
-                                        code
-                                        and draws a box around the QR code.</p>
-                                    <p class="mb-4">It was developed in Python using the library matplotlib as an
-                                        assignment
-                                        for CompSci 373: Computer Graphics and Image Processing at the University of
-                                        Auckland.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">QR Code
+                                    Detector
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-qrcode"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/qr-code-detected.png"
+                                    alt="Detected QR Code" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-left">The QR Code detector takes an image that contains a
+                                    non-rotated QR
+                                    code
+                                    and draws a box around the QR code.
+                                </p>
+                                <p class="mb-4 text-left"><strong>Technologies used: Python, matplotlib</strong></p>
+                                <ul class="text-left">
+                                    <li>Individual assignment for COMPSCI 373: Computer Graphics and Image Processing
+                                    </li>
+                                    <li>Developed various functions to process an image and detect QR code</li>
+                                </ul>
+                                <br>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
