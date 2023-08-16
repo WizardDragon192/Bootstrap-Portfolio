@@ -15,7 +15,18 @@ html {
   scroll-padding-top: calc(4.5rem - 1px);
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -26,10 +37,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .page-section {
   padding: 6rem 0;
 }
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -44,6 +57,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   justify-content: center;
   align-items: center;
 }
+
 .divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
@@ -52,6 +66,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   border-radius: 1rem;
   border-color: #003366;
 }
+
 .divider-custom .divider-custom-about-line {
   width: 100%;
   max-width: 12rem;
@@ -60,7 +75,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   border-radius: 1rem;
   border-color: #003366;
 }
-.divider-custom .divider-custom-long-line{
+
+.divider-custom .divider-custom-long-line {
   width: 100%;
   max-width: 20rem;
   height: 0.25rem;
@@ -68,22 +84,28 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   border-radius: 1rem;
   border-color: #003366;
 }
+
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
 }
+
 .divider-custom .divider-custom-line:last-child {
   margin-left: 1rem;
 }
+
 .divider-custom .divider-custom-icon {
   color: #003366;
   font-size: 2rem;
 }
+
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
 }
+
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
 }
+
 .divider-custom.divider-light .divider-custom-about-line {
   background-color: #ffff;
 }
@@ -109,24 +131,33 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
+
 #mainNav .navbar-brand {
+  align-self: flex-start;
   color: #fff;
 }
+
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #3399ff;
 }
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #3399ff;
 }
+
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
@@ -138,36 +169,46 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
+
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: font-size 0.3s;
   }
+
   #mainNav .navbar-nav {
     margin-top: 0;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
     background: #3399ff;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
     background: #3399ff;
   }
+
   #mainNav.navbar-shrink {
     position: fixed;
     left: 0;
 
     .container {
       flex-direction: column;
+
       ul {
         padding-left: 0 !important;
       }
     }
   }
+
   #mainNav.navbar-shrink ul {
     align-self: flex-start;
   }
 }
+
 .form-floating input.form-control,
 .form-floating textarea.form-control {
   font-size: 1.5rem;
@@ -177,10 +218,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   border-radius: 0;
   border-width: 1px;
 }
+
 .form-floating input.form-control:focus,
 .form-floating textarea.form-control:focus {
   box-shadow: none;
 }
+
 .form-floating label {
   font-size: 1.5rem;
   color: #6c757d;
@@ -190,13 +233,16 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
+
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
+
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
+
 .masthead .masthead-avatar {
   width: 15rem;
 }
@@ -206,14 +252,17 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
   }
+
   .masthead .masthead-heading {
     font-size: 4rem;
     line-height: 3.5rem;
   }
+
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -222,6 +271,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -230,9 +280,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   opacity: 0;
   background-color: rgba(51, 153, 255, 0.9);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
@@ -242,10 +294,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-size: 2rem;
   padding: 1rem;
 }
+
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
@@ -271,4 +325,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 .text-left {
   text-align: left;
+}
+
+#navContainer {
+  flex-direction: column;
+}
+
+#sidebar {
+  align-self: flex-start;
 }
